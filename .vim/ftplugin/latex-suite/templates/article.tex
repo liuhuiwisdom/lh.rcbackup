@@ -1,0 +1,17 @@
+<+	+>	!comp!	!exe!
+%        File: !comp!expand("%:p:t")!comp!
+%     Created: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+% Last Change: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+%
+\input{/home/kong/Documents/tex/head.tex}
+\title{}
+\author{}
+\begin{document}
+\begin{CJK*}{UTF8}{fang}
+\maketitle
+<++>
+\bibliographystyle{plain}
+\bibliography{/home/kong/Documents/tex/library.bib}
+\newpage
+\end{CJK*}
+\end{document}
